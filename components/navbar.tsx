@@ -23,7 +23,7 @@ export function Navbar() {
     <>
       <header className={`fixed inset-x-0 top-0 z-50 transition-all duration-500 ${scrolled ? 'glass' : 'py-2'}`}>
         <div className="container-editorial flex items-center justify-between h-16 md:h-20">
-          <Link href="/" className="flex flex-col leading-none text-ink">
+          <Link href="/" className="flex flex-col leading-none text-cream">
             <span className="font-serif text-2xl md:text-3xl tracking-tight">{site.name}</span>
             <span className="eyebrow mt-0.5 !text-[0.6rem]">{site.region}</span>
           </Link>

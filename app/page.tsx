@@ -27,15 +27,15 @@ export default function Home() {
             <LineText delay={0.1}>{site.name}</LineText>
           </h1>
           <Reveal delay={0.25}>
-            <p className="mt-4 max-w-xl text-lg text-cream/90 md:text-xl">{site.tagline} {site.sub}</p>
+            <p className="mt-4 max-w-xl text-lg text-cream/90 md:text-xl">Find your perfect stay — {site.tagline.toLowerCase()} {site.sub}</p>
           </Reveal>
 
           {/* search bar */}
           <Reveal delay={0.35}>
-            <div className="mt-10 flex max-w-3xl items-center gap-3 rounded-full bg-cream/95 p-1.5 pl-6 text-ink shadow-2xl backdrop-blur">
+            <div className="mt-10 flex max-w-3xl items-center gap-3 rounded-full bg-forest-deep/95 p-1.5 pl-6 text-cream shadow-2xl backdrop-blur">
               <Search className="h-5 w-5 shrink-0 text-stone" />
               <input type="text" placeholder="I&apos;m looking for a cottage, a hike, a restaurant…" className="flex-1 bg-transparent py-3 text-sm outline-none placeholder:text-stone/70" />
-              <button className="hidden rounded-full bg-forest px-6 py-3 text-sm text-cream transition-colors hover:bg-forest-deep sm:inline-flex">Search</button>
+              <button className="hidden rounded-full bg-forest px-6 py-3 text-sm text-cream transition-colors hover:bg-forest-mist sm:inline-flex">Search</button>
             </div>
           </Reveal>
 
@@ -59,13 +59,13 @@ export default function Home() {
       </section>
 
       {/* HOW IT WORKS */}
-      <section className="bg-cream py-20 md:py-28">
+      <section className="bg-forest-deep py-20 md:py-28">
         <div className="container-editorial grid gap-12 md:grid-cols-[1fr_2fr]">
           <div>
             <Reveal><p className="eyebrow">How it works</p></Reveal>
             <Reveal delay={0.1}>
               <h2 className="mt-4 font-serif text-4xl md:text-5xl">Plan your perfect Rosendal escape.</h2>
-              <p className="mt-5 max-w-md text-muted-foreground">A few simple steps to extraordinary memories — whether it&apos;s a weekend, a festival, or a long slow week.</p>
+              <p className="mt-5 max-w-md text-cream/55">A few simple steps to extraordinary memories — whether it&apos;s a weekend, a festival, or a long slow week.</p>
             </Reveal>
             <Reveal delay={0.2}>
               <Magnetic strength={0.5} className="mt-8 inline-block">
@@ -75,10 +75,10 @@ export default function Home() {
           </div>
           <Stagger className="grid grid-cols-2 gap-4 md:grid-cols-4">
             {steps.map((s) => (
-              <StaggerItem key={s.n} className="rounded-lg border border-ink/10 bg-white p-6">
+              <StaggerItem key={s.n} className="rounded-lg border border-cream/10 bg-forest-mist p-6">
                 <div className="font-serif text-3xl text-brass">{s.n}</div>
                 <div className="mt-6 font-medium">{s.t}</div>
-                <div className="mt-2 text-sm text-muted-foreground">{s.s}</div>
+                <div className="mt-2 text-sm text-cream/55">{s.s}</div>
               </StaggerItem>
             ))}
           </Stagger>
@@ -86,7 +86,7 @@ export default function Home() {
       </section>
 
       {/* CATEGORY GRID */}
-      <section className="bg-cream pb-20 md:pb-28">
+      <section className="bg-forest-deep pb-20 md:pb-28">
         <div className="container-editorial grid grid-cols-2 gap-3 md:grid-cols-5 md:gap-4">
           {categories.map((c) => (
             <Link key={c.href} href={c.href} className="group relative aspect-[4/5] overflow-hidden rounded-xl" data-cursor="grow">
@@ -123,7 +123,7 @@ export default function Home() {
             </Reveal>
             <Reveal delay={0.3}>
               <Magnetic strength={0.5} className="mt-10 inline-block">
-                <Link href="/plan-your-visit" className="btn-pill border border-cream/30 hover:bg-cream/10" data-cursor="grow">Read the story <ArrowRight className="h-4 w-4" /></Link>
+                <Link href="/plan-your-visit" className="btn-pill border border-cream/30 hover:bg-forest-deep/10" data-cursor="grow">Read the story <ArrowRight className="h-4 w-4" /></Link>
               </Magnetic>
             </Reveal>
           </div>
@@ -138,7 +138,7 @@ export default function Home() {
       </section>
 
       {/* EVENTS */}
-      <section className="bg-cream py-20 md:py-28">
+      <section className="bg-forest-deep py-20 md:py-28">
         <div className="container-editorial">
           <div className="flex flex-wrap items-end justify-between gap-6">
             <Reveal>
@@ -149,17 +149,17 @@ export default function Home() {
           </div>
           <Stagger className="mt-12 grid gap-4 md:grid-cols-4">
             {events.map((e) => (
-              <StaggerItem key={e.title} className="group overflow-hidden rounded-lg border border-ink/10 bg-white">
+              <StaggerItem key={e.title} className="group overflow-hidden rounded-lg border border-cream/10 bg-forest-mist">
                 <div className="relative aspect-[4/5]">
                   <Image src={e.img} alt={e.title} fill loading="lazy" className="object-cover transition-transform duration-700 group-hover:scale-105" />
-                  <div className="absolute left-4 top-4 rounded-md bg-cream px-3 py-2 text-center leading-none">
+                  <div className="absolute left-4 top-4 rounded-md bg-forest-deep px-3 py-2 text-center leading-none">
                     <div className="eyebrow text-[0.6rem]">{e.mon}</div>
                     <div className="mt-1 font-serif text-2xl">{e.day}</div>
                   </div>
                 </div>
                 <div className="p-5">
                   <div className="font-serif text-xl">{e.title}</div>
-                  <div className="mt-1 text-xs text-muted-foreground">{e.when} · 2026</div>
+                  <div className="mt-1 text-xs text-cream/55">{e.when} · 2026</div>
                 </div>
               </StaggerItem>
             ))}
@@ -176,9 +176,9 @@ export default function Home() {
             <Reveal delay={0.2}><p className="mt-4 max-w-md text-cream/80">Your free guide to the best stays, eats, events and hidden gems — straight to your inbox.</p></Reveal>
           </div>
           <Reveal delay={0.2}>
-            <form className="flex items-center gap-2 rounded-full bg-cream p-1.5 pl-6 text-ink">
+            <form className="flex items-center gap-2 rounded-full bg-forest-deep p-1.5 pl-6 text-cream">
               <input type="email" placeholder="Enter your email address" className="flex-1 bg-transparent py-3 text-sm outline-none placeholder:text-stone" />
-              <button className="rounded-full bg-forest px-6 py-3 text-sm text-cream transition-colors hover:bg-forest-deep">Send me the guide</button>
+              <button className="rounded-full bg-forest px-6 py-3 text-sm text-cream transition-colors hover:bg-forest-mist">Send me the guide</button>
             </form>
           </Reveal>
         </div>

@@ -14,8 +14,8 @@ export function AvailabilityCalendar() {
     <section className="container-editorial py-16">
       <p className="eyebrow">Availability</p>
       <h2 className="mt-3 font-serif text-3xl md:text-4xl">Plan your dates.</h2>
-      <div className="mt-8 max-w-2xl rounded-2xl border border-ink/10 bg-white p-6">
-        <div className="grid grid-cols-7 gap-2 text-center text-xs text-muted-foreground">
+      <div className="mt-8 max-w-2xl rounded-2xl border border-cream/10 bg-forest-mist p-6">
+        <div className="grid grid-cols-7 gap-2 text-center text-xs text-cream/55">
           {['M', 'T', 'W', 'T', 'F', 'S', 'S'].map((d, i) => <div key={i}>{d}</div>)}
         </div>
         <div className="mt-2 grid grid-cols-7 gap-2">
@@ -24,18 +24,18 @@ export function AvailabilityCalendar() {
               key={c.d}
               onMouseEnter={() => setHover(c.d)}
               onMouseLeave={() => setHover(null)}
-              className={`aspect-square rounded-lg text-sm transition-colors ${c.booked ? 'bg-ink/5 text-ink/30' : 'bg-forest/10 text-forest hover:bg-forest hover:text-cream'}`}
+              className={`aspect-square rounded-lg text-sm transition-colors ${c.booked ? 'bg-cream/5 text-cream/30' : 'bg-brass/10 text-brass hover:bg-forest-mist hover:text-cream'}`}
             >
               {c.d}
             </button>
           ))}
         </div>
-        <div className="mt-5 flex items-center gap-6 text-sm text-muted-foreground">
-          <span className="flex items-center gap-2"><span className="h-4 w-4 rounded bg-forest/10" /> Available</span>
-          <span className="flex items-center gap-2"><span className="h-4 w-4 rounded bg-ink/5" /> Booked</span>
+        <div className="mt-5 flex items-center gap-6 text-sm text-cream/55">
+          <span className="flex items-center gap-2"><span className="h-4 w-4 rounded bg-brass/10" /> Available</span>
+          <span className="flex items-center gap-2"><span className="h-4 w-4 rounded bg-cream/5" /> Booked</span>
           {hover && <span className="ml-auto">Min stay: 2 nights</span>}
         </div>
-        <p className="mt-4 text-xs text-muted-foreground">Live availability arrives in Phase 2 — owners manage their own calendar.</p>
+        <p className="mt-4 text-xs text-cream/55">Live availability arrives in Phase 2 — owners manage their own calendar.</p>
       </div>
     </section>
   );

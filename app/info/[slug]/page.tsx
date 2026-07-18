@@ -27,14 +27,14 @@ export default function InfoPage({ params }: { params: { slug: string } }) {
       <div className="container-editorial py-16">
         {/* Intro */}
         <Reveal>
-          <div className="max-w-3xl space-y-5 text-lg leading-relaxed text-ink/80">
+          <div className="max-w-3xl space-y-5 text-lg leading-relaxed text-cream/80">
             {page.intro.map((p, i) => <p key={i}>{p}</p>)}
           </div>
         </Reveal>
 
         {/* Body */}
         <Reveal delay={0.1}>
-          <div className="mt-10 max-w-3xl space-y-5 text-lg leading-relaxed text-ink/80">
+          <div className="mt-10 max-w-3xl space-y-5 text-lg leading-relaxed text-cream/80">
             {page.paragraphs.filter((p) => p && p !== page.intro[0]).map((p, i) => <p key={i}>{p}</p>)}
           </div>
         </Reveal>
@@ -45,7 +45,7 @@ export default function InfoPage({ params }: { params: { slug: string } }) {
             <h2 className="font-serif text-3xl">Top {page.checklist.length} birds in Rosendal</h2>
             <div className="mt-6 grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
               {page.checklist.map((b) => (
-                <div key={b} className="rounded-lg border border-ink/10 bg-white px-4 py-3 text-sm">{b}</div>
+                <div key={b} className="rounded-lg border border-cream/10 bg-forest-mist px-4 py-3 text-sm">{b}</div>
               ))}
             </div>
           </section>
@@ -55,7 +55,7 @@ export default function InfoPage({ params }: { params: { slug: string } }) {
         {page.kind === 'maps' && (
           <section className="mt-14 grid gap-6 md:grid-cols-3">
             {page.images.map((src, i) => (
-              <a key={src + i} href={src} target="_blank" rel="noreferrer" className="group overflow-hidden rounded-xl border border-ink/10 bg-white">
+              <a key={src + i} href={src} target="_blank" rel="noreferrer" className="group overflow-hidden rounded-xl border border-cream/10 bg-forest-mist">
                 <div className="relative aspect-[3/4]">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img src={src} alt={`Rosendal map ${i + 1}`} className="h-full w-full object-contain p-3 transition-transform duration-700 group-hover:scale-105" loading="lazy" />
@@ -78,11 +78,11 @@ export default function InfoPage({ params }: { params: { slug: string } }) {
         )}
 
         {/* More content pages */}
-        <nav className="mt-20 border-t border-ink/10 pt-10">
+        <nav className="mt-20 border-t border-cream/10 pt-10">
           <p className="eyebrow">More about Rosendal</p>
           <div className="mt-4 flex flex-wrap gap-3">
             {infoOrder.filter((o) => o.slug !== params.slug).map((o) => (
-              <a key={o.slug} href={`/info/${o.slug}`} className="rounded-full border border-ink/15 px-4 py-2 text-sm transition-colors hover:border-brass hover:text-brass">{o.label}</a>
+              <a key={o.slug} href={`/info/${o.slug}`} className="rounded-full border border-cream/15 px-4 py-2 text-sm transition-colors hover:border-brass hover:text-brass">{o.label}</a>
             ))}
           </div>
         </nav>

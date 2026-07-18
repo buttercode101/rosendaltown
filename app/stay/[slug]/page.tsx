@@ -40,8 +40,8 @@ export default function PropertyPage({ params }: { params: { slug: string } }) {
             <p className="eyebrow">The essentials</p>
             <div className="mt-4 flex flex-wrap gap-2">
               {property.facts.slice(0, 8).map((f) => (
-                <span key={f} className="inline-flex items-center gap-2 rounded-full border border-ink/15 bg-white px-4 py-2 text-sm">
-                  <Check className="h-3.5 w-3.5 text-forest" /> {f}
+                <span key={f} className="inline-flex items-center gap-2 rounded-full border border-cream/15 bg-forest-mist px-4 py-2 text-sm">
+                  <Check className="h-3.5 w-3.5 text-brass" /> {f}
                 </span>
               ))}
             </div>
@@ -50,7 +50,7 @@ export default function PropertyPage({ params }: { params: { slug: string } }) {
           {/* Story */}
           <Reveal delay={0.1}>
             <h2 className="mt-12 font-serif text-3xl md:text-4xl">The story</h2>
-            <p className="mt-5 max-w-2xl text-lg leading-relaxed text-ink/80">{property.story}</p>
+            <p className="mt-5 max-w-2xl text-lg leading-relaxed text-cream/80">{property.story}</p>
           </Reveal>
 
           {/* Huge gallery strip */}
@@ -81,11 +81,11 @@ export default function PropertyPage({ params }: { params: { slug: string } }) {
         <h2 className="font-serif text-2xl">More places to stay</h2>
         <div className="mt-6 grid gap-5 sm:grid-cols-3">
           {properties.filter((p) => p.slug !== property.slug).slice(0, 3).map((p) => (
-            <Link key={p.slug} href={`/stay/${p.slug}`} className="group rounded-xl overflow-hidden border border-ink/10 bg-white" data-cursor="grow">
+            <Link key={p.slug} href={`/stay/${p.slug}`} className="group rounded-xl overflow-hidden border border-cream/10 bg-forest-mist" data-cursor="grow">
               <div className="relative aspect-[4/3] overflow-hidden">
                 {p.hero && <img src={p.hero} alt={p.name} className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy" />}
               </div>
-              <div className="p-4"><div className="font-serif text-lg">{p.name}</div><div className="text-sm text-muted-foreground">{p.price[0] || 'Enquire'}</div></div>
+              <div className="p-4"><div className="font-serif text-lg">{p.name}</div><div className="text-sm text-cream/55">{p.price[0] || 'Enquire'}</div></div>
             </Link>
           ))}
         </div>

@@ -3,78 +3,55 @@
 @tailwind utilities;
 
 :root {
-  color-scheme: light;
+  color-scheme: dark;
 }
 
 @layer base {
   body {
-    @apply bg-cream text-ink antialiased;
+    @apply bg-forest-deep text-cream antialiased;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
   }
-  h1, h2, h3, h4 {
-    @apply font-serif font-medium tracking-tight;
-  }
   ::selection {
-    background: theme('colors.brass');
-    color: theme('colors.forest-deep');
+    background: rgba(201, 162, 75, 0.3);
+    color: #fff;
   }
-  @media (pointer: fine) {
-    a, button, [data-cursor='grow'] { cursor: none; }
+  h1, h2, h3, h4 {
+    @apply font-serif;
   }
 }
 
-.eyebrow {
-  font-family: var(--font-sans), system-ui, sans-serif;
-  font-size: 0.72rem;
-  font-weight: 500;
-  letter-spacing: 0.22em;
-  text-transform: uppercase;
-  color: theme('colors.brass');
-}
-
-.container-editorial {
-  width: 100%;
-  max-width: 80rem;
-  margin-inline: auto;
-  padding-inline: 1.25rem;
-}
-@media (min-width: 768px) {
-  .container-editorial { padding-inline: 2rem; }
-}
-
-.btn-pill {
-  @apply inline-flex items-center gap-2 rounded-full px-6 py-3 text-sm transition-colors duration-300;
-}
-.btn-pill-forest { @apply bg-forest text-cream hover:bg-forest-deep; }
-.btn-pill-outline { @apply text-ink hover:bg-ink hover:text-cream; border: 1px solid rgb(45 46 44 / 0.2); }
-.btn-pill-brass { @apply bg-brass text-forest-deep hover:bg-brass-soft; }
-
-.img-card { @apply relative overflow-hidden; }
-.img-card img { @apply transition-transform duration-[900ms] ease-out; }
-.img-card:hover img { @apply scale-105; }
-
-.glass {
-  backdrop-filter: blur(12px);
-  background: rgba(249, 245, 235, 0.82);
-  border-bottom: 1px solid rgba(34, 51, 40, 0.08);
-}
-
-.grain::after {
-  content: '';
-  position: fixed;
-  inset: 0;
-  z-index: 60;
-  pointer-events: none;
-  opacity: 0.04;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
-}
-
-.animate-drift { animation: drift 18s ease-in-out infinite alternate; }
-@media (prefers-reduced-motion: reduce) {
-  .animate-drift { animation: none; }
-  *, *::before, *::after {
-    animation-duration: 0.001ms !important;
-    transition-duration: 0.001ms !important;
+@layer components {
+  .container-editorial {
+    @apply mx-auto w-full max-w-editorial px-5 sm:px-8 lg:px-12;
   }
+  .eyebrow {
+    @apply text-[0.7rem] font-medium uppercase tracking-eyebrow text-brass;
+  }
+  .btn-pill {
+    @apply inline-flex items-center gap-2 rounded-full px-6 py-3 text-sm transition-colors duration-300;
+  }
+  .btn-pill-forest { @apply bg-forest text-cream hover:bg-forest-mist; }
+  .btn-pill-outline { @apply text-cream hover:bg-cream hover:text-ink; border: 1px solid rgb(237 231 218 / 0.22); }
+  .btn-pill-brass { @apply bg-brass text-ink hover:bg-brass-soft; }
+
+  .glass {
+    @apply border-b border-cream/10 bg-forest-deep/80 backdrop-blur-xl;
+  }
+
+  .img-card { @apply relative overflow-hidden; }
+
+  /* film grain overlay */
+  .grain::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.04;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+}
+
+@layer utilities {
+  .text-balance { text-wrap: balance; }
 }

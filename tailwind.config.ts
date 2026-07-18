@@ -5,30 +5,25 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        cream: 'oklch(0.972 0.012 92)',
-        ink: 'oklch(0.18 0.012 90)',
-        forest: 'oklch(0.32 0.035 155)',
-        'forest-deep': 'oklch(0.22 0.03 155)',
-        brass: 'oklch(0.72 0.11 80)',
-        'brass-soft': 'oklch(0.86 0.07 85)',
-        stone: 'oklch(0.55 0.02 80)',
-        mist: 'oklch(0.95 0.01 90)'
+        cream: '#EDE7DA',      // ivory — primary text on dark
+        ink: '#15180F',         // near-black — dark surfaces / chips
+        forest: '#2C3A2E',      // mid forest-green — panels, primary buttons
+        'forest-deep': '#1A1F1B', // page background (charcoal-forest)
+        'forest-mist': '#232A22', // alt dark surface
+        mist: '#232A22',
+        brass: '#C9A24B',       // gold accent
+        'brass-soft': '#DAC08A',
+        stone: '#A9A390',       // muted light text
       },
       fontFamily: {
-        serif: ['var(--font-display)', 'ui-serif', 'Georgia', 'serif'],
-        sans: ['var(--font-sans)', 'ui-sans-serif', 'system-ui', 'sans-serif']
+        serif: ['var(--font-cormorant)', 'Cormorant Garamond', 'Georgia', 'serif'],
+        sans: ['var(--font-work)', 'Work Sans', 'system-ui', 'sans-serif']
       },
       maxWidth: {
-        editorial: '80rem'
+        editorial: '72rem'
       },
-      keyframes: {
-        drift: {
-          '0%': { transform: 'scale(1.05) translate3d(0,0,0)' },
-          '100%': { transform: 'scale(1.12) translate3d(-1.5%,-1.5%,0)' }
-        }
-      },
-      animation: {
-        drift: 'drift 18s ease-in-out infinite alternate'
+      letterSpacing: {
+        eyebrow: '0.28em'
       }
     }
   },
