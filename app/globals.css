@@ -47,7 +47,7 @@
   @apply inline-flex items-center gap-2 rounded-full px-6 py-3 text-sm transition-colors duration-300;
 }
 .btn-pill-forest { @apply bg-forest text-cream hover:bg-forest-deep; }
-.btn-pill-outline { @apply border border-ink/20 text-ink hover:bg-ink hover:text-cream; }
+.btn-pill-outline { @apply text-ink hover:bg-ink hover:text-cream; border: 1px solid rgb(45 46 44 / 0.2); }
 .btn-pill-brass { @apply bg-brass text-forest-deep hover:bg-brass-soft; }
 
 .img-card { @apply relative overflow-hidden; }
