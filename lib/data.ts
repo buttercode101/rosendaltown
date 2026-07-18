@@ -37,52 +37,32 @@ export const stats = [
   { n: '1000+', l: 'Happy visitors' }
 ];
 
-export const events = [
-  { day: '25', mon: 'MAY', title: 'Rosendal Winter Festival', when: '25 – 28 May', img: '/events.jpg' },
-  { day: '07', mon: 'JUN', title: 'Rosendal Country Market', when: '07 June', img: '/shops.jpg' },
-  { day: '21', mon: 'JUN', title: 'Art in the Park', when: '21 June', img: '/art-culture.jpg' },
-  { day: '05', mon: 'JUL', title: 'Spring Celebration', when: '05 July', img: '/story.jpg' }
-];
+export const events = [{"day": "20", "mon": "JUL", "title": "Let’s Draw Rosendal 2026", "when": "Every Tuesday 2026", "img": "/events.jpg"}, {"day": "16", "mon": "JUL", "title": "iRun Cross Country", "when": "16-19 July 2026", "img": "/events.jpg"}, {"day": "18", "mon": "JUL", "title": "Car Boot Sale", "when": "18 July 2026", "img": "/events.jpg"}, {"day": "18", "mon": "JUL", "title": "Celebrate Mandela Day with Let’s Draw", "when": "18 July 2026", "img": "/events.jpg"}];
 
-export const stays = [
-  { name: 'The Rosendal Country House', price: 'From R990 pppn', img: '/stay-cottage.jpg' },
-  { name: 'Illyria Guest Farm', price: 'From R1,200 pppn', img: '/story.jpg' },
-  { name: "Captain's Cabin", price: 'From R880 pppn', img: '/captains-cabin.jpg' },
-  { name: 'The View @ Rosendal', price: 'From R1,800 pppn', img: '/church.jpg' }
-];
+export const stays = [{"name": "Modderfort", "price": "R975pernight", "img": "https://rosendaltown.co.za/wp-content/uploads/2026/07/MOD_6.-Garden.jpg"}, {"name": "Mont Blanc Cabin", "price": "R1250pernight", "img": "https://rosendaltown.co.za/wp-content/uploads/2026/07/MontBlanc-New.jpeg"}, {"name": "Field Cabin", "price": "R15001", "img": "https://rosendaltown.co.za/wp-content/uploads/2026/02/FC-Landing-page.jpeg"}, {"name": "Potluck Accomodation", "price": "R1250pernight", "img": "https://rosendaltown.co.za/wp-content/uploads/2025/10/POT_d1c844b9-cb3a-4155-9081-798ecfe49e46.jpg"}];
 
-export const eatDrink = [
-  { name: 'The Rosendal Hotel', img: '/eat-drink.jpg' },
-  { name: 'Cafe Rosendal', img: '/story.jpg' },
-  { name: 'Posthouse Tiny Bar', img: '/captains-cabin.jpg' },
-  { name: 'The Town Shed', img: '/shops.jpg' },
-  { name: 'Do Hoop Bakers', img: '/things-to-do.jpg' },
-  { name: 'The Country Kitchen', img: '/church.jpg' }
-];
+export const eatDrink = [{"name": "The Service Station Wine Bar", "img": "https://rosendaltown.co.za/wp-content/uploads/2024/04/Eat_banner3.jpg"}, {"name": "Yolla’s", "img": "https://rosendaltown.co.za/wp-content/uploads/2024/11/servicestation2.jpg"}, {"name": "Live sport events screened.", "img": "https://rosendaltown.co.za/wp-content/uploads/2024/04/RD_facebook_icon.png"}, {"name": "Rooitamatie", "img": "https://rosendaltown.co.za/wp-content/uploads/2024/04/yollas1.jpg"}, {"name": "Renette & Kalika’s Teestoep", "img": "https://rosendaltown.co.za/wp-content/uploads/2026/05/rooitamatie1.jpg"}, {"name": "Waffle House", "img": "https://rosendaltown.co.za/wp-content/uploads/2026/05/cakes.jpg"}];
 
-export const thingsToDo = [
-  { name: 'Walking Trails', img: '/things-to-do.jpg' },
-  { name: 'Rosendal Art Route', img: '/art-culture.jpg' },
-  { name: 'Golf Club', img: '/church.jpg' },
-  { name: 'Fishing at the Dam', img: '/story.jpg' },
-  { name: 'Horse Riding', img: '/stay-cottage.jpg' },
-  { name: 'Mountain Biking', img: '/hero-rosendal.jpg' }
-];
+export const thingsToDo = [{"name": "Walking + Hiking", "img": "https://rosendaltown.co.za/wp-content/uploads/2024/04/SeeDo_banner3-1.jpg"}, {"name": "Labyrinth", "img": "https://rosendaltown.co.za/wp-content/uploads/2024/04/walking.jpg"}, {"name": "Markings: white arrows and dots", "img": "https://rosendaltown.co.za/wp-content/uploads/2024/09/Holkrans1-1.jpg"}, {"name": "Holkrans Sunset Experience", "img": "https://rosendaltown.co.za/wp-content/uploads/2024/11/thebank.jpg"}, {"name": "Cost", "img": "https://rosendaltown.co.za/wp-content/uploads/2024/04/postoffice.jpg"}, {"name": "Birdwatching", "img": "https://rosendaltown.co.za/wp-content/uploads/2024/04/cycling1.jpg"}];
 
-export const artCulture = [
-  { name: 'ark. contemporary', img: '/art-culture.jpg' },
-  { name: 'Rosendal Art Route', img: '/story.jpg' },
-  { name: 'The Church Gallery', img: '/church.jpg' }
-];
+export const artCulture = [{"name": "GALLERIES + ARTISTS", "img": "https://rosendaltown.co.za/wp-content/uploads/2025/04/Art_banner2.jpg"}, {"name": "Pretorius Studio Gallery", "img": "https://rosendaltown.co.za/wp-content/uploads/2024/04/ark.jpg"}, {"name": "Grietjie Lee", "img": "https://rosendaltown.co.za/wp-content/uploads/2024/04/RD_instagram_icon.png"}];
 
-export const shops = [
-  { name: 'The Country Shop', img: '/shops.jpg' },
-  { name: 'Rosendal Trading Post', img: '/captains-cabin.jpg' },
-  { name: 'Local Craft Market', img: '/things-to-do.jpg' }
-];
+export const shops = [{"name": "SHOPS", "img": "https://rosendaltown.co.za/wp-content/uploads/2024/09/Shops_banner_Summer.jpg"}, {"name": "Gallery Gift Shop", "img": "https://rosendaltown.co.za/wp-content/uploads/2024/06/GalleryGiftShop.jpg"}, {"name": "Kaboedel Craft", "img": "https://rosendaltown.co.za/wp-content/uploads/2024/04/Kaboedel.jpg"}];
 
 export const footer = {
   explore: ['Stay', 'Eat & Drink', 'Things to Do', 'Art & Culture', 'Shops & Services', 'Events'],
-  information: ['About Rosendal', 'Heritage', 'Plan Your Visit', 'Video Info', 'Contact Us'],
+  information: [
+    { label: 'About Rosendal', href: '/info/welcome' },
+    { label: 'History & Heritage', href: '/info/history-and-heritage' },
+    { label: 'The Heritage Association', href: '/info/the-rosendal-heritage-association' },
+    { label: 'Plan Your Visit', href: '/plan-your-visit' },
+    { label: 'Where to Find Us', href: '/info/where-to-find-us' },
+    { label: 'Birdwatching', href: '/info/birdwatching' },
+    { label: 'Artisans', href: '/info/artisans' },
+    { label: 'Town Maps', href: '/info/town-maps' },
+    { label: 'Gallery', href: '/info/gallery' },
+    { label: 'Outreach', href: '/info/outreach' },
+    { label: 'Contact Us', href: '/contact' }
+  ],
   business: ['List Your Business', 'Business Listings', 'Business Login']
 };

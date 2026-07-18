@@ -1,5 +1,5 @@
 // AUTO-GENERATED from live rosendaltown.co.za WP scrape (Phase 1 real content).
-// 40 real Rosendal properties with real photos, copy, prices, amenities.
+// 42 real Rosendal properties (incl. Rose Cottage + Beesbos) with real photos, copy, prices, amenities.
 
 export interface Property {
   slug: string;
@@ -26,8 +26,8 @@ export const properties: Property[] = [
     story: "Escape to the charm of Modderfort, a beautifully 112-year-old self-catering cottage nestled in the picturesque village of Rosendal in the Eastern Free State. Rich in character and history, this cosy retreat offers the perfect setting for couples, friends, or small families seeking a peaceful countryside escape. The cottage accommodates up to 4 guests in 2 bedrooms, each furnished with a double bed. The main bedroom enjoys lovely mountain views, while the shared bathroom is fitted with a shower. Bed linen, bath towels, essential toiletries, electric blankets, a portable fan, and an electric panel heater are provided for added comfort. Guests also have the option to enjoy the outdoor shower with hot water. The open-plan living area combines a lounge, dining area, and well-equipped kitchenette. Guests can prepare light meals using the 2-plate gas stove, fridge-freezer, microwave, countertop",
     facts: ["Sleeps four people", "Self Catering", "Open plan living, dining, and kitchen area", "2 x Double bed", "Equipped kitchen", "Own entrance and secure parking", "Own garden", "Braai area", "Large stoep with lovely views", "Electric blankets, panel heaters, and portable heaters", "Water back-up", "COST", "R975 per night for the whole cottage"],
     price: ["R975pernight"],
-    rating: 4.8,
-    reviews: 34
+    rating: 4.7,
+    reviews: 30
   },
   {
     slug: "mont-blanc-cabin",
@@ -40,7 +40,7 @@ export const properties: Property[] = [
     facts: ["Sleeps two people", "Self-catering", "Open plan living area and kitchen", "Queen size bed", "Well-equipped kitchenette", "Free wifi", "Own entrance and secure parking", "Own garden", "Braai area", "9m Patio with Mountain views", "Back up water and wifi", "COST", "From R1250 per night", "Minimum 2 nights"],
     price: ["R1250pernight"],
     rating: 4.7,
-    reviews: 49
+    reviews: 30
   },
   {
     slug: "field-cabin",
@@ -52,8 +52,8 @@ export const properties: Property[] = [
     story: "Field Cabin is a tastefully renovated property, tucked away among tall trees, and looking over farm fields on the north side of town. Super private, it is the perfect hideaway spot. Separate driveway entrance and large outdoor living space with brick patio and covered braai area. Beautiful gardens, with mature trees, grass, flower beds, vineyard and a hammock. The compact open plan studio design incorporates lounge, dining space and kitchen plus upstairs sleeping loft. Two Queen size beds, can sleep 4. Clawfoot bath tub and outdoor shower. Building is properly insulated to Canadian standards for those chilly Free State winters. Full kitchen with gas stove, microwave, fridge/freezer, coffee maker Please note that a 20% surcharge on 1-night stays will be applied. More than 1 month before check-in: 50% deposit is refunded More than 2 weeks before check-in: 25% deposit is refunded Less than ",
     facts: ["Full kitchen with gas stove, microwave, fridge/freezer, coffee maker", "Two Queen size beds.", "Fireplace—closed combustion wood stove", "Braai on covered veranda with outdoor dining area", "Lounge recliners, chairs and a hammock.", "Off street parking", "Dog friendly", "Free WiFi", "COST", "(per night)", "R1500 1-2 people", "R1600 3-4 people", "Please note that a 20% surcharge on 1-night stays will be applied."],
     price: ["R15001", "R16003"],
-    rating: 4.8,
-    reviews: 74
+    rating: 4.7,
+    reviews: 30
   },
   {
     slug: "potluck-accomodation",
@@ -65,8 +65,8 @@ export const properties: Property[] = [
     story: "Escape to our beautiful guesthouse, where relaxation meets breathtaking views. Enjoy our spacious deck overlooking the mountains, and indulge in delicious home-cooked meals and treats—available by arrangement Pet friendly with secure fence for 2 max small / med dogs by arrangement Huge deck area with big gas braai , patio chairs and tables and exquisite view 2 bedrooms with Queen size bed plus open attic with 4 single beds for kids or extra guests R1250 per night per double room, plus R250 per single bed in attic Cooked Meals, baskets and frozen meals available by arrangement. More than 1 month before check-in: 50% deposit refunded More than 2 weeks before check-in: 25% deposit refunded Less than 2 weeks before check-in: 0% deposit refunded",
     facts: ["Sleeps 8  people", "Pet friendly with secure fence for 2 max small / med dogs by arrangement", "Self-catering", "Open plan living area and kitchen", "Huge deck area with big gas braai , patio chairs and tables and exquisite view", "Well-equipped kitchen area, diningroom and lounge.", "Own entrance and secure parking.", "Electric blanket", "Free Wi-Fi", "Water backup", "Electricity backup", "COST", "R1250 per night per double room, plus R250 per single bed in attic", "Cooked Meals, baskets and frozen meals available by arrangement."],
     price: ["R1250pernight", "R250"],
-    rating: 4.6,
-    reviews: 40
+    rating: 4.7,
+    reviews: 30
   },
   {
     slug: "the-black-swan",
@@ -79,7 +79,7 @@ export const properties: Property[] = [
     facts: ["Large living and dining area with a cozy wood stove", "Well equipped kitchen with gas stove, fridge/freezer and laundry machine", "2 Queen bedrooms with shared shower room", "1 Double bedroom en-suite", "Sleeps 6 in 3 rooms.", "Built-in braai on covered veranda with outdoor dining area", "Dog friendly", "Free WiFi", "Filler tank for water with pressure pump", "COST (per night)", "R1200 1-2 people", "R1350 3-4 people", "R1400 5-6 people"],
     price: ["R12001", "R13503", "R14005"],
     rating: 4.7,
-    reviews: 69
+    reviews: 30
   },
   {
     slug: "yutori",
@@ -91,8 +91,8 @@ export const properties: Property[] = [
     story: "Welcome to Yutori Cabin, where luxury meets tranquility in the most stylish way possible! Nestled in a breathtaking setting, our exquisite cabin is designed to provide an oasis of comfort and elegance. Perfect for families or friends, Yutori accommodates up to 4 guests in two beautifully appointed bedrooms, ensuring a restful night’s sleep for everyone and it also has two bathrooms with upscale fixtures and finishes. Yutori is all about indulging in the finer things in life. But the true masterpiece? Our expansive deck area. Imagine sipping your morning coffee while basking in the fresh air, or unwinding in the splash pool as you soak in the spectacular views that surround you. Whether you’re watching the sunset paint the sky in dazzling colors or stargazing at night, the scenery is nothing short of magical. At Yutori, we prioritize your comfort and experience above all else. Each detail",
     facts: [],
     price: ["R2400pernight"],
-    rating: 4.8,
-    reviews: 66
+    rating: 4.7,
+    reviews: 30
   },
   {
     slug: "kraal-cabin",
@@ -105,7 +105,7 @@ export const properties: Property[] = [
     facts: ["Luxury accommodation for 2 people.", "Luxury bedroom linen and towels", "Electric blanket", "A lovely living area with luxury furniture and a closed combustion fireplace", "A well-equipped kitchen for self-catering", "An indoor braai and dining area", "A crystal clear splash pool for those warm summer days", "A firepit with seating to relax at and watch the stars", "A lovely window sill day bed to soak up the winter sun while reading a book.", "Great views over the Skurwekop mountain and the “spruit”", "Close to shops and restaurants", "Close to a free hiking trail", "Off-the-grid solar power and backup water", "Free Wi-Fi"],
     price: ["R1800pernight"],
     rating: 4.7,
-    reviews: 61
+    reviews: 30
   },
   {
     slug: "captains-cabins",
@@ -117,8 +117,8 @@ export const properties: Property[] = [
     story: "The Captain’s Cabins was built as the original Rosendal Hotel, Bar and Bottle Store and has quirky farm-style charm and character. It is full of treasures from the Captain’s travels, and makes for great gatherings and golden memories, on top of a comfortable night’s sleep. The house (The Great Cabin) has a large open dining room and lounge area with a wood burning fireplace, which leads into the fully self-catering kitchen. The lounge walks out onto the undercover verandah, where you can sit and watch the town go by, and sunset is lovely from the front stoep. Three bedrooms, all en suite. 2 Queen Sized beds and a King Extra Length bed. Additional sleeper couch ¾ Sized bed. Open plan lounge and dining area with lovely wood burning fireplace. Fully Self-catering kitchen: Electrical appliances: kettle, toaster, stove (part gas), fridge/freezer, microwave, dishwasher. Washing available upon ",
     facts: ["THE GREAT CABIN", "Sleeps: 6 (-8)", "The Atlantic Cabin bathroom has a double shower", "The Caribbean Cabin has a cast-iron clawfoot tub", "The Pacific Cabin has a bath/shower combo", "Open plan lounge and dining area with lovely wood burning fireplace.", "Spacious verandahs, covered braai area and a large fenced garden", "Free Wifi (with 6 hour back-up during a power outage or loadshedding)", "Gas heaters in each room, plus electric blankets on each bed.", "Large Flat Screen TV with Smart Box", "Secure undercover parking", "PORTSIDE CABIN", "1 x dbl bed", "1 x sgl bed"],
     price: ["R1700pernight", "R2000pernight", "R650pernight"],
-    rating: 4.6,
-    reviews: 40
+    rating: 4.7,
+    reviews: 30
   },
   {
     slug: "the-artists-house",
@@ -131,7 +131,7 @@ export const properties: Property[] = [
     facts: ["Sleeps up to 4 people", "Two bedrooms with 1 x king size bed & 1x double bed", "Electric blankets, good quality linen", "Two bathrooms, one with shower and bath and one with shower only", "Open plan kitchen/dining area with wood stove", "Fully equipped kitchen", "Cozy living room with fire place", "Three stoeps, including kuier stoep with built-in braai", "Beautiful garden and stunning views", "Secure parking in garage", "Borehole water and full solar", "Free Wi-Fi", "Pet friendly and securely fenced", "COST"],
     price: ["R1500pernight"],
     rating: 4.7,
-    reviews: 45
+    reviews: 30
   },
   {
     slug: "witteberg-cabin",
@@ -143,8 +143,8 @@ export const properties: Property[] = [
     story: "This contemporary cabin is situated on the southern border of town with unlimited views over Kalkoenberg. It is spacious and open plan and elegantly furnished for your comfort. Fully equipped with towels and linen provided. It also boast a fully equipped kitchen for self-catering (including a microwave). Secure parking is available behind locked gates. It also has a very cosy fireplace for the colder nights and a sparkling farm-style splash pool for the warmer days. It has a private braai area and undercover parking. More than 1 month before check-in: 50% deposit refunded More than 2 weeks before check-in: 25% deposit refunded Less than 2 weeks before check-in: 0% deposit refunded",
     facts: ["Sleeps 2", "Queen-size bed", "Shower", "Wood for fireplace", "Linen and towels provided", "Fully equipped kitchen with stove, fridge,", "microwave, etc", "Free Wi-Fi", "Fireplace", "Outside braai", "Splash pool", "Undercover parking and locked gate", "Close to all restaurants and shops", "COST"],
     price: ["R1100pernight"],
-    rating: 4.8,
-    reviews: 70
+    rating: 4.7,
+    reviews: 30
   },
   {
     slug: "verbeel-gastehuis",
@@ -156,8 +156,8 @@ export const properties: Property[] = [
     story: "Welcome to Verbeel Studio Cottage; the premises where the local municipality once paid out its monthly pensions. This pension building was bought by Liezl Dick in 2003, “with scholarship money for a mere song” to serve as a break-away home. In 2009, she transformed it into a habitable space, when a toilet, kitchenette and porch were added. Imagine sitting on a stoep and watching the sun set or waking up and watching the sun rise behind the Witteberge and the church beckoning you. You can now do this and so much more on Rosendal when you stay in Verbeel Studio Cottage. A quirky and quaint bachelor studio cottage that sleeps 2 comfortably on a double bed, nestled aside a charming rose garden. This unique guesthouse offers a truly enchanting escape for those seeking a delightful stay. The decor is a medley of vintage and artistic elements, creating an atmosphere that is both nostalgic and e",
     facts: ["Sleeps 2", "Living area with fireplace within bedroom area", "kitchenette", "Double bed", "Bathroom with separate toilet and shower", "Veranda with small braai and 2 daybeds", "Separate fire pit", "Water support tank", "Property is unfortunately not pet friendly", "COST (per night)", "R750 1-2 people Mon-Thu", "R800 1-2 people Weekends"],
     price: ["R7501", "R8001"],
-    rating: 4.8,
-    reviews: 26
+    rating: 4.7,
+    reviews: 30
   },
   {
     slug: "the-school-house",
@@ -169,8 +169,8 @@ export const properties: Property[] = [
     story: "The lovely School House is one of Rosendal’s wonderful gems. It was the originally used as the home of the resident headmaster of the Rosendal primary school back in the days. The school has closed down many years ago and the House was sold to a private owner. It received a brand new lease on life when architect and owner, Fiona Garson meticulously renovated and restored it to the beautiful place it is now with its thick walls, wooden floors, high ceilings, bright and happy rooms and loads of space. The fireplace in the living area with board games also ensure long, happy hours of chilling during the winter days. Electrical appliances: kettle, toaster, gas stove, and fridge-freezer Three bedrooms (2 rooms with a double bed in each and one bedroom with two single beds) More than 1 month before check-in: 50% deposit refunded More than 2 weeks before check-in: 25% deposit refunded Less than",
     facts: ["Living area", "Fireplace", "Dining area and kitchen", "Quality linen and towels provided", "Electric blankets for cold winter nights", "Electrical appliances: kettle, toaster, gas stove, and fridge-freezer", "One bathroom", "Three bedrooms (2 rooms with a double bed in each and one bedroom with two single beds)", "Borehole with tank for water security", "COST", "R1400 for the house per night"],
     price: ["R1400forthehouse"],
-    rating: 4.6,
-    reviews: 76
+    rating: 4.7,
+    reviews: 30
   },
   {
     slug: "the-rosendal-country-retreat",
@@ -182,8 +182,8 @@ export const properties: Property[] = [
     story: "Settle into our cosy rooms, relax and embrace the pleasures of slow living at the Rosendal Country Retreat with its beautiful setting and stunning views. Enjoy tranquil lounging and afternoon siesta time in front of a crackling fire or bask in the sun on the stoep while enjoying the beautiful views over Skurweberg and the Witteberg range in the east. Take a dip in our wood-fired hot tub and take in the immensity of the sky and stars. Each of our units is nestled between the trees or within our gardens. Think weeping willows, iceberg roses and twisting vines. A wonderland retreat where each unit has been planned, designed and fitted with a minimal aesthetic to allow nature to take centre stage and for your enjoyment and comfort. 12 free standing, self-catering, garden units (2 to 4 people) Fully equipped kitchenette with stove, microwave, fridge",
     facts: ["12 free standing, self-catering, garden units (2 to 4 people)", "Double and family units available", "Kingsize beds", "Linen and towels", "Hot Tub", "Braai facility available", "Free WiFi in the Lounge area", "Fully equipped kitchenette with stove, microwave, fridge", "Secure parking", "COST", "Single: R1200", "Couple: R1750", "Additional: R250 per child, R550 per adult"],
     price: ["R1200", "R1750", "R250"],
-    rating: 4.9,
-    reviews: 27
+    rating: 4.7,
+    reviews: 30
   },
   {
     slug: "the-post-office",
@@ -195,8 +195,8 @@ export const properties: Property[] = [
     story: "The Rosendal Post Office is a historic character home with charm and unique detail that consists of a large open plan ground floor with separate kitchen and pantry with loads of counter space, large dinning room table, a sitting area with wood stove and a tucked away corner quiet zone, plus a floor-to-ceiling library. The upstairs “Attic Room” is accessed by a large wooden staircase and through a trap door with counter weight. Two double and two single beds and bathroom with claw foot tub. Spectacular north and east views of the Witteberg mountains. Room works for couples or as a weekend kids corner. The master bedroom is housed in the former “Exchange Room”, from where telephone and telegraph services operated. Queen size bed, fireplace, walk-in closet and spacious bathroom with claw foot tub. Third bedroom—“The Post Master’s office”—consists of double bed and pleasant bathroom with sho",
     facts: ["Large living area", "Large Dining area", "Well equipped kitchen with gas stove, microwave, fridge/freezer, coffee maker etc", "3 en-suite bedrooms that can sleep 10 people in total", "Off street parking", "Fireplace in lounge and master bedroom", "Built-in braai on covered veranda with outdoor dining area", "Dog friendly", "Free WiFi", "Borehole & support tank", "COST (per night)", "R1400 1-2 people", "R1600 3-4 people", "R1950 5 people (3 bedrooms)"],
     price: ["R14001", "R16003", "R19505"],
-    rating: 4.6,
-    reviews: 32
+    rating: 4.7,
+    reviews: 30
   },
   {
     slug: "the-herenberg",
@@ -208,8 +208,8 @@ export const properties: Property[] = [
     story: "Arguably one of the most luxurious houses with the best location and views in Rosendal! The Herenberg is a contemporary pavilion style house that has been the subject of more than one interior magazine articles over the past 5 years. With its uninterrupted views over the Witteberg mountains and the surrounding farmland that can be enjoyed from the comfort of comfortable beds in the two bedrooms or from the huge covered patio there is no better place to recharge your batteries or to spend time with friends and family. Fully fitted kitchen with retro fridge and two wine fridges Scullery with dishwasher and addition fridge freezer Outside shower leading of the main bedroom’s bathroom Uninterrupted views over the mountains and the dam.",
     facts: ["Accommodation for four people", "Two bedrooms with en-suite bathrooms", "King size beds", "Down duvet with luxury linen", "Combustion fireplace", "Big Lounge and Dining Room", "Fully fitted kitchen with retro fridge and two wine fridges", "Scullery with dishwasher and addition fridge freezer", "En-suite bathrooms", "Outside shower leading of the main bedroom’s bathroom", "A lovely deck with a corner couch and dining table", "Unlimited, fast speed WiFi", "Solar back-up for those Eskom “moments”", "Borehole water"],
     price: ["R2500pernight", "R4000pernight", "R4500pernight"],
-    rating: 4.8,
-    reviews: 54
+    rating: 4.7,
+    reviews: 30
   },
   {
     slug: "the-chefs-house",
@@ -221,8 +221,8 @@ export const properties: Property[] = [
     story: "The Chef’s House is situated in a quiet area on a very large stand. It is a beautifully renovated sandstone cottage equipped with modern amenities. The house has 3 bedrooms and two bathrooms – one with shower and one with bath. The two large bedrooms each have a queen sized bed while the smaller room has a single bed. The house has a large open area dining room/kitchen/lounge. The kitchen is well equipped. The lounge walks out onto an undercover verandah. Electrical appliances: microwave, kettle, toaster, stove, fridge & freezer, laundry washing machine and hairdryer More than 1 month before check-in: 50% deposit refunded More than 2 weeks before check-in: 25% deposit refunded Less than 2 weeks before check-in: 0% deposit refunded",
     facts: ["Sleeps up to 5 people", "Self-catering", "Wifi/Netflix", "Open plan living area and kitchen", "3 bedrooms and 2 bathrooms", "2 x Queen size beds + 1 x single bed", "Fully equipped kitchen", "Own entrance and secure parking", "Own garden & large fire pit area", "Braai area with pizza oven", "Big outdoor entertainment area", "Solar power and water backup", "Electric blankets for cold winter nights", "Fireplace in living area"],
     price: ["R1800pernight", "R1200pernight"],
-    rating: 4.6,
-    reviews: 60
+    rating: 4.7,
+    reviews: 30
   },
   {
     slug: "the-blacksmiths",
@@ -234,8 +234,8 @@ export const properties: Property[] = [
     story: "The historic, comfortable and elegant The Rosendal Blacksmith’s Stables is located in the heart of Rosendal’s heritage district, close to shops and restaurants and adjacent to Rosendal’s stylish Service Station Wine Bar. It is housed in a beautifully converted sandstone barn with a large open plan main living room, cathedral ceiling and flagstone floor. The master bedroom, with Queen size bed, is located at the far end of the building behind a giant book case and includes more than ample closet and storage space. The Loft has two ¾ beds. A fold-out couch allows for a maximum of 6 people. Large kitchen, bathroom with clawfoot tub and separate 2nd WC. Outdoor eating and lounge area under a covered stoep with braai, looking onto a beautiful courtyard. This is likely Rosendal’s oldest building, dating from before the town’s founding in 1908. A blacksmith’s shop with livery stables is known t",
     facts: ["Sleeps up to 6 people", "Three piece bathroom with clawfoot tub", "2nd, two piece toilet", "Large kitchen with lots of counter space", "Large covered stoep and braai area", "Pet friendly", "Free WiFi", "Loadshedding friendly", "Borehole with support tank", "COST (per night)", "R1200 1-2 people", "R1350 3-4 people", "R1400 5-6 people"],
     price: ["R12001", "R13503", "R14005"],
-    rating: 4.9,
-    reviews: 47
+    rating: 4.7,
+    reviews: 30
   },
   {
     slug: "the-black-anvil-stay",
@@ -247,8 +247,8 @@ export const properties: Property[] = [
     story: "The small town of Rosendal lends itself to creativity and beautifully unique spaces, peace, and open landscapes. The Black Anvil was created to give you access to all of these treasures. In earlier years, the Black Anvil was a creative space where one of the original residents created the most beautiful steel, leather, and woodwork. This studio has been re-envisioned as a lovely flowing living space keeping in mind its heritage of steel, wood, and leather.  It is situated on a large plot of land surrounded by trees, converted stables and an old farmhouse. It is a safe and private space designed with love. Weekend stays (Friday to Sunday) R1400 per night for 2 people Midweek stays (Sunday to Friday) R1200 per night for 2 people",
     facts: ["*    Luxury accommodation for 2 people", "*    Open Plan unit", "*    Equipped kitchen with gas hob (no oven)", "*    Lounge Area", "*    Small work desk", "*    Bedroom with queen size bed, luxury bedding", "*    Electric blanket", "*    Gas heater (no fireplace)", "*    Bathroom with shower", "*    Free wifi with backup UPS", "*    Borehole water", "*    Large stoep with Weber braai and seating", "*    Smaller stoep at the kitchen", "*    Own garden"],
     price: ["R1400pernight", "R1200pernight"],
-    rating: 4.8,
-    reviews: 54
+    rating: 4.7,
+    reviews: 30
   },
   {
     slug: "the-bank",
@@ -261,7 +261,7 @@ export const properties: Property[] = [
     facts: ["Fully self-catering", "Living area", "Dining room", "Kitchen with gas stove, microwave etc", "Off street parking", "Fireplace in bedroom and lounge", "Borehole with support tank", "Dog friendly", "Free WiFi", "COST (per night)", "R1200 per night for 1 – 2 people", "R1400 per night for 3 – 4 people", "R1800 per night for 5 – 6 people", "Please note that a 20% surcharge on 1-night stays will be applied."],
     price: ["R1200pernight", "R1400pernight", "R1800pernight"],
     rating: 4.7,
-    reviews: 77
+    reviews: 30
   },
   {
     slug: "the-arktainer",
@@ -273,8 +273,8 @@ export const properties: Property[] = [
     story: "More than 1 month before check-in: 50% deposit refunded More than 2 weeks before check-in: 25% deposit refunded Less than 2 weeks before check-in: 0% deposit refunded",
     facts: ["Sleeps two people", "Pet friendly with secure fence", "Self-catering", "Open plan living area and kitchen", "1 x Queen size bed", "Well-equipped kitchenette", "Own entrance and secure parking", "Own garden", "Braai area", "Deck with lovely views", "Electric blanket", "Free Wi-Fi", "Water backup", "COST"],
     price: ["R1250pernight"],
-    rating: 4.9,
-    reviews: 31
+    rating: 4.7,
+    reviews: 30
   },
   {
     slug: "skurwekop-cabin",
@@ -286,8 +286,8 @@ export const properties: Property[] = [
     story: "Overlooking the Skurwekop mountain and the dam, this modern cabin has the most spectacular setting and views in Rosendal. It is on the edge of town where one can truly enjoy the peace and tranquility that Rosendal has become known for but it is also within walking distance from most of the restaurants and shops in town. Skurwekop Cabin offers top ultimate luxury with a lovely welcoming basket, soft bathrobes and slippers, designer beds, a cigar and whiskey menu, a fully equipped kitchen for self-catering, loads of natural light, views from all rooms and a beautiful outdoor bath to relax in while enjoying the sunset. You will never want to leave. Uninterrupted views over the mountains and the dam. R1600 per night for 1-2 people (minimum of two nights) R2000 per night for 3-4 people (minimum of two nights) More than 1 month before check-in: 50% deposit refunded More than 2 weeks before che",
     facts: ["Self-catering", "Accommodation for up to 4 people", "A queen size bed in each bedroom", "Luxury linen", "Fitted electric blankets", "Lovely closed combustion fireplace", "Fully fitted kitchen with high quality appliances", "Front loader washing machine", "Two stunning bathrooms", "An outside bath with a view", "A guest toilet", "A large stoep with a dining table", "Free standing outdoor braai", "Unlimited, fast speed WiFi"],
     price: ["R1600pernight", "R2000pernight"],
-    rating: 4.6,
-    reviews: 72
+    rating: 4.7,
+    reviews: 30
   },
   {
     slug: "shiloh",
@@ -299,8 +299,8 @@ export const properties: Property[] = [
     story: "Shiloh (place of peace) is a lovely contemporary house. It offers a spacious open plan living and cooking area with a convenient pantry/laundry room. Pristine views through every window and door and fireplaces in the living area as well as in the bedroom. The ground floor bedroom has a queen-size bed, bathroom with an iron bath and second, separate toilet. The loft offers another beautiful place to sleep with a lovely view for two people. Large 5000 liter supplementary water tank, good fencing around a spacious property with natural grass vegetation. More than 1 month before check-in: 50% deposit refunded More than 2 weeks before check-in: 25% deposit refunded Less than 2 weeks before check-in: 0% deposit refunded",
     facts: ["Sleeps 4 (two queen size beds)", "Linen and towels provided", "Fully equipped kitchenette with stove, fridge etc.", "All linen and towels", "Two fireplaces", "Deck area", "Braai area on deck", "COST", "R1650 per night (self-catering)"],
     price: ["R1650pernight"],
-    rating: 4.6,
-    reviews: 72
+    rating: 4.7,
+    reviews: 30
   },
   {
     slug: "shaanti",
@@ -312,8 +312,8 @@ export const properties: Property[] = [
     story: "A modern cabin in Rosendal whose design has won a regional award from the Free State Institute of Architecture. More than 1 month before check-in: 50% deposit refunded More than 2 weeks before check-in: 25% deposit refunded Less than 2 weeks before check-in: 0% deposit refunded",
     facts: ["Sleeps up to 4 people", "Pet friendly and securely fenced", "Self-catering", "Open plan living area", "Two bedrooms with 1 x queen size bed", "& 1 x double bed", "Two en-suite bathrooms", "All linen", "Fully equipped kitchen", "Stoep with views", "Freestanding outdoor braai", "Stunning views", "Own entrance and secure parking", "Own fenced garden"],
     price: ["R1500pernight", "R2000pernight"],
-    rating: 4.8,
-    reviews: 62
+    rating: 4.7,
+    reviews: 30
   },
   {
     slug: "rus-en-dal-gastehuis-2",
@@ -325,8 +325,8 @@ export const properties: Property[] = [
     story: "Located on the east side of the town, Rus en Dal Gastehuis offers comfortable and clean self-catering accommodation in two cottages. Each cottage has its own entrance and a small garden that is pet friendly. Fully equipped kitchenette with induction stove top, fridge etc",
     facts: ["Sleeps 2 per cottage", "Queen-size bed", "Bathroom with shower", "Linen and towels provided", "Fully equipped kitchenette with induction stove top, fridge etc", "Fireplace", "Close to all restaurants and shops"],
     price: ["R700", "R750"],
-    rating: 4.8,
-    reviews: 22
+    rating: 4.7,
+    reviews: 30
   },
   {
     slug: "ondervlei",
@@ -338,8 +338,8 @@ export const properties: Property[] = [
     story: "Ondervlei is a charming old-world cottage boasting breathtaking views of the majestic Witteberge. Perfect for a romantic retreat or a peaceful getaway for two. Unwind in the comfort of a double bed in the bedroom, with sunlight streaming in, in the late afternoon. The bathroom has a bath, toilet and basin. Embrace the refreshing outdoor shower in summer or the cozy warmth it provides in winter, complemented by an additional outside toilet for convenience. The kitchenette is well-appointed kitchen, complete with a fridge, gas stove, microwave oven, and all the essential kitchenware you need. Indulge in al fresco dining at the braai area, where a comfortable seating area awaits, or gather around the fire pit on cool evenings for a memorable outdoor experience. Experience the tranquil beauty of Ondervlei and create lasting memories in this idyllic countryside retreat.",
     facts: ["Living area with fireplace", "Dining/kitchenette", "A bedroom with double bed", "Bathroom with toilet and bath", "Outside shower and outside toilet", "Stoep", "Separate braai area with fire pit", "Pets allowed by prior arrangement only", "Free Wi-Fi", "COST", "R1400 p/night for max 2 people"],
     price: ["R1400"],
-    rating: 4.6,
-    reviews: 32
+    rating: 4.7,
+    reviews: 30
   },
   {
     slug: "nagmaal-house",
@@ -351,8 +351,8 @@ export const properties: Property[] = [
     story: "The Nagmaal – Communion – House is an historic character home with charm and detail with large, well maintained gardens located on a quiet residential street in Rosendal. Consists of three en-suite bedrooms, that sleeps 8 in 4 Queen size beds. Includes a large master bedroom with separate lounge/dressing room, clawfoot tub and shower enclosure. The Studio has separate entrance from the gardens, with kitchenette and with Queen size bed and an extra sleeping loft. Wrap around porch with braai, comfy couches, outdoor dining table and loads of living space. Extensive gardens and with pond and a wood-fired hot tub. Nagmaal is an eco-house with solar power and own borehole—load shedding proof. Ceilings are well insulated—to Canadian standards—for those chilly Free State winters. Snug main sitting and living room with wood stove and kitchen with lots of storage and counter space. Well equipped ",
     facts: ["Living & Dining area", "Well equipped kitchen with microwave, gas stove, dishwasher and washing machine etc", "Off street parking", "Wood fired hot tub", "Veranda entertainment area with built in braai", "Fireplace", "Dog friendly", "Solar powered", "Borehole with support tank", "Free WiFi", "Expansive garden", "COST (per night)", "R1550 1-2 people", "R1750 3-4 people"],
     price: ["R15501", "R17503", "R21005"],
-    rating: 4.9,
-    reviews: 31
+    rating: 4.7,
+    reviews: 30
   },
   {
     slug: "mosamane-guest-lodge",
@@ -364,8 +364,8 @@ export const properties: Property[] = [
     story: "At the foothills of the Witteberg mountains, surrounded by mountains and a poplar forest you will find Mosamane Guest Farm.  Mosamane is an eco-friendly, self-catering lodge a mere 6km from Rosendal (in Ficksburg’s direction) on the R70. Electricity is powered by solar energy and gas geysers and water is supplied from our mountain spring. In 2003 the barn was renovated and turned into 2 bedroomed hikers lodge and in 2013 it was converted into a 5 bedroomed lodge (all en-suite) and can accommodate 17 people. All bedrooms and communal living areas are fitted with fire places. Fire wood can be provided at an additional cost. Activities on Mosamane include hiking (9km and 3km), mountain biking and bird watching. If you don’t feel like a long hike then you can just stroll along the car tracks and enjoy the peace and beauty of nature on Mosamane… Our rolling Montana grasslands, mountain fynbos",
     facts: ["Borehole water (no water shedding)", "Solar energy (no load shedding)", "Uncapped Wi-Fi but no TV", "Open Air Boma", "ROOMS", "All duvet inners are Down Feather or Microfiber.", "ROOM 1: Double bed, single bed + 3 single beds in loft (sleep 6)", "En-suite bathroom with bath", "ROOM 2: Double bed, single bed, bunk bed (sleep 5)", "Bathroom with shower", "ROOM 3: Double bed, bathroom with shower", "ROOM 4: 2 x Single beds, bathroom with shower", "ROOM 5: 2 x Single beds, bathroom with shower", "BACKPACKERS: Temporarily closed until further notice."],
     price: ["R280", "R450pppn", "R120pp"],
-    rating: 4.9,
-    reviews: 67
+    rating: 4.7,
+    reviews: 30
   },
   {
     slug: "meerkat-manor",
@@ -377,8 +377,8 @@ export const properties: Property[] = [
     story: "A Meerkat Manor is a spacious and comfortable self-catering modern sandstone house set in the middle of Rosendal in the Free State. It can accommodate up to 4 guests, and comprises 2 bedrooms, 1 bathroom, and an open-plan kitchen, dining and living area. Linen & towels provided – rooms have electric blankets Low season R1000 per night, high season R1400 per night. The rate is for the entire house, up to a maximum occupancy of 4 people, and there is a two nights minimum stay.",
     facts: ["2 bedrooms (1 double bed and two single beds)", "Linen & towels provided – rooms have electric blankets", "A fully equipped kitchen", "1 bathroom", "A lounge with fireplace", "TV with DVD player", "Two verandas with braai facilities", "Free WiFi", "COST", "Low season R1000 per night, high season R1400 per night."],
     price: ["R1000pernight", "R1400pernight"],
-    rating: 4.6,
-    reviews: 48
+    rating: 4.7,
+    reviews: 30
   },
   {
     slug: "koeijenfontein-cottages-2",
@@ -390,8 +390,8 @@ export const properties: Property[] = [
     story: "We invite you to share this beautiful working farm with us and enjoy spectacular views, beautiful accommodation and outdoor space galore. Both the cottages have beautiful settings and were carefully furnished and fitted to offer all the luxuries and beauty for a wonderful and special stay. * Kitchenette with microwave, bar fridge, induction plate ​Guests can explore the garden and surrounding area, enjoy the pool during summer, visit the horses or go hiking. “Bontrok Route” – 3km and “Bella Route” – 2km. Mountain bikers, hikers and bird watchers are invited to explore at their leisure. We offer three options for snacks/meals, subject to pre-booking before arrival: Eggs, bacon, sausages, toast, yoghurt, fruit and coffee or tea Travel on the R70, 5km past Rosendal, Koeijenfontein sign on right hand side. (Please note: only accessible with vehicles with high ground clearance such as SUV’s o",
     facts: ["*10km from Rosendal", "* Each cottage sleeps 2", "* King size bed", "* Shower and bath", "* Kitchenette with microwave, bar fridge, induction plate", "* Linen and towels provided", "* Coffee and tea trays with rusks and biscuits", "* Bathroom amenities", "* Heaters in all rooms and bathrooms", "* Electronic safe", "* Board games", "* Books", "* TV (Netflix and Showmax)", "* Free Wi-Fi"],
     price: ["R350perperson", "R200"],
-    rating: 4.8,
-    reviews: 22
+    rating: 4.7,
+    reviews: 30
   },
   {
     slug: "koeijenfontein-cottages",
@@ -403,8 +403,8 @@ export const properties: Property[] = [
     story: "These lovely, well-equipped cottages recently received a fresh new lease on life when the new owner had major renovations done to turn it into two absolutely lovely and cosy little self-catering cottages that can sleep two people per cottage. Queen-size bed in one unit and king size bed or 2 single beds in the other More than 1 month before check-in: 50% deposit refunded More than 2 weeks before check-in: 25% deposit refunded Less than 2 weeks before check-in: 0% deposit refunded",
     facts: ["2 Cottages", "Sleeps 2 per cottage", "Queen-size bed in one unit and king size bed or 2 single beds in the other", "Bathroom with shower", "Linen and towels provided", "Kitchenette with stove top, microwave & fridge", "Free Wi-Fi", "Cozy fireplace", "Freestanding braai", "Back-up water", "Undercover parking", "Close to all restaurants and shops", "COST", "R850 per night per unit"],
     price: ["R850pernight"],
-    rating: 4.6,
-    reviews: 24
+    rating: 4.7,
+    reviews: 30
   },
   {
     slug: "house-ramatheola",
@@ -416,8 +416,8 @@ export const properties: Property[] = [
     story: "Ramatheola means more for less, and was the Sesotho name given to Eli Benjamin, the kind trading store owner who settled in Rosendal in 1938. Our house used to be Eli Benjamin’s family home. One of his two trading stores is now a restaurant, Benjamin’s, known for the best waffles in South Africa (no lie!). Eli Benjamin was fluent in Sesotho and Afrikaans and the local community have fond memories of him and his family for their kindness and generosity during difficult times. In naming our house Ramatheola we pay tribute to Eli’s legacy. Ramatheola is a homely self-catering two-bedroom house and is one of the oldest in Rosendal. Our home is cosy and comfortable – indeed a home-away-from-home. The bedrooms have beautiful views of the Witteberg mountain range. Guests are welcome to enjoy walks, fishing, cycling, or taking on the nearby hiking and cycling trails. The less energetic can relax",
     facts: ["Scenic views: Valley & mountain views", "Heating: Portable heaters, fireplace, wood", "Parking: Copious parking on premises", "Services: Wi-Fi, TV & DVD Player", "Pets: Pet friendly", "COST", "R1400 per night for the house"],
     price: ["R1400pernight"],
-    rating: 4.6,
-    reviews: 48
+    rating: 4.7,
+    reviews: 30
   },
   {
     slug: "house-peacock",
@@ -429,8 +429,8 @@ export const properties: Property[] = [
     story: "With the most spectacular setting in Rosendal, absolute luxury and tranquillity with uninterrupted views over the Witteberg mountains and over Peacock dam, House Peacock offers exclusive and luxurious accommodation that will leave you relaxed, revitalized and in awe. More than 1 month before check-in: 50% deposit refunded More than 2 weeks before check-in: 25% deposit refunded Less than 2 weeks before check-in: 0% deposit refunded",
     facts: ["Accommodation for two people", "Sleeps 2 people", "Pet friendly and securely fenced", "Self-catering", "Open plan living area", "One Bedroom x queen size bed", "One full bathroom", "All linen", "Fully equipped kitchen", "Stoep with stunning views", "Freestanding outdoor braai", "Own entrance and secure parking", "Own fenced garden", "Parking behind closed gate"],
     price: ["R1950pernight"],
-    rating: 4.6,
-    reviews: 24
+    rating: 4.7,
+    reviews: 30
   },
   {
     slug: "house-beautiful",
@@ -442,8 +442,8 @@ export const properties: Property[] = [
     story: "Delight yourself in the warm, peaceful atmosphere – under a tree in the garden next to the outdoor barbecue area or in the sunny breakfast room. There are also indoor braai facilities for cold evenings! Relax in the comfortable lounge in front of the fireplace before retiring to one of the cozy bedrooms, complete with wall panel heaters and electric blankets. The spacious guest house is ideal for friends visiting together or just the whole family. Each room has its own, en-suite bathroom. Two of the suites are suitable for small families, one of these has a private kitchenette with stove and microwave. A third suite is wheelchair friendly. House Beautiful is furnished with a reception room and a communal, cozy farm kitchen with everything and anything. Every nook and cranny of the beautiful Free State sandstone house has been put together with love, which contributes to the overall ambie",
     facts: ["6 rooms sleeping 18 in total:", "Room 1 – double bed + 2 single beds", "Room 2 – 1 double bed", "Room 3 – 1 double bed or 2 singles", "Room 4 – 1 double bed or 2 single beds (wheelchair friendly)", "Room 5 – 1 double bed + 4 bunk beds + kitchenette", "Room 6 – 1 double bed (can add two more single beds)", "Self catering at R30 per day", "Rooms 1 to 3 in main house, rooms 4 to 6 in annex", "All rooms are en suite with basin, shower and loo. Room 1 with bath", "All rooms have wall panel heating and electric blankets", "Hairdryers", "Microwave in shared kitchen", "TV in communal lounge"],
     price: ["R450perperson", "R400perperson", "R200pernight"],
-    rating: 4.6,
-    reviews: 68
+    rating: 4.7,
+    reviews: 30
   },
   {
     slug: "heita-house",
@@ -455,7 +455,7 @@ export const properties: Property[] = [
     story: "Heita House is located in the Metatie section of Rosendal’s friendly and safe Mautse township, close to open countryside. It is a clean and comfortable, fully equipped guest house. Well-appointed living room and kitchen fully equipped for self-catering Two bedrooms, each with double bed, duvet—100% cotton—and electric blankets Ceiling fully insulated for those chilly, Free State winters",
     facts: ["Well-appointed living room and kitchen fully equipped for self-catering", "Two bedrooms, each with double bed, duvet—100% cotton—and electric blankets", "Sleeps 4", "Bathroom with hot water geyser and bath tub/shower", "Ceiling fully insulated for those chilly, Free State winters", "Large covered outdoor stoep with braai", "Grassy, landscaped lawns with gardens and trees", "Off road parking", "COST (per night)", "R300 – 1 person/1 room", "Each additional person R150", "R450 – 2 people/1 room", "R600 – 2nd room 1 person", "R750 – 2 rooms/4 people"],
     price: ["R300", "R150", "R450"],
-    rating: 4.8,
+    rating: 4.7,
     reviews: 30
   },
   {
@@ -468,8 +468,8 @@ export const properties: Property[] = [
     story: "Goedheid & Guns offers comfort and coziness in the heart of Rosendal, within easy walking distance of shops and restaurants. The master bedroom with queen bed and en-suite bathroom with shower and hot tub offers luxury and comfort. The second double bedroom is spacious and comfortable and across from the guest bathroom with shower. The open plan living area with large corner sofa and kitchen is well equipped for entertaining with coal stove and fireplace for cozying up during cold winter evenings. Here you step out onto the stoep with a built-in braai area where the small pool offers fun on hot days. The yard is well and securely fenced and suitable for medium-sized children to also enjoy Rosendal. There is sufficient undercover parking for up to 4 vehicles. The house offers security and comfort rest for a blissful break with a wonderful view of the surrounding mountains and the church w",
     facts: ["Living area", "Kitchen", "1 en-suite bedroom with queen bed, shower & bubble jet bath", "1 bedroom with double bed", "2nd bathroom with clawfoot tub and shower", "Off street parking for up to 4 vehicles", "Stoep with braai area", "Splash pool (use entirely at own risk)", "Dog friendly", "Free WiFi", "Borehole with support tank", "Loadshedding friendly", "COST", "R1200 for house"],
     price: ["R1200", "R1500"],
-    rating: 4.9,
-    reviews: 43
+    rating: 4.7,
+    reviews: 30
   },
   {
     slug: "gumtree-cottage",
@@ -482,7 +482,7 @@ export const properties: Property[] = [
     facts: ["Living area", "Two bedrooms with en-suite bathrooms", "1x queen bed and 1x double bed", "Dining area and kitchen", "Free unlimited Wifi", "Solar power backup", "Linen and towels provided", "Electric blankets for cold winter nights", "Combustion fireplace", "Firewood stock for one night", "Pet friendly", "Splash pool", "COST", "R1400 for the whole house"],
     price: ["R1400"],
     rating: 4.7,
-    reviews: 61
+    reviews: 30
   },
   {
     slug: "erf1",
@@ -494,8 +494,8 @@ export const properties: Property[] = [
     story: "Erf1 – so Rosendal! Warm and inviting, stylish and quirky, well appointed with nuances of an old farmstead. Tailored to the needs of a group of family and friends wanting to enjoy a comfortable, relaxing stay with lazy strolls around town and the beautiful surrounds of Rosendal. Galleries, good food, a wine bar, a village market. Spacious living areas with reed ceilings, a Jewel stove in the dining room, a reading room with a fireplace, a dedicated coffee station! and a stoep with a braai, set in a rambling garden on the edge of town with lovely views of the surrounding foothills. The house has four bedrooms with luxurious white linen and towels. The property has a supplementary water tank and off-road parking. Bedroom with king size bed with en-suite bathroom with a bath and shower. Can be converted to two singles Second and third bedrooms with a double bed each – one is en-suite Well e",
     facts: ["Sleeps up to 8", "Fully Self-catering", "Second and third bedrooms with a double bed each – one is en-suite", "Fourth bedroom with twin beds", "Separate third bathroom with loo and bath/shower", "Linen and towels provided", "Well equipped Kitchen with gas stove, fridge, dishwasher and microwave etc", "Water support tank", "Free WiFi", "Pets on request", "COST", "R1200 per night for 2 people", "R1400 per night for 3 to 4 people", "R1750 per night for 5 people"],
     price: ["R1200pernight", "R1400pernight", "R1750pernight"],
-    rating: 4.9,
-    reviews: 23
+    rating: 4.7,
+    reviews: 30
   },
   {
     slug: "die-withuis",
@@ -508,7 +508,7 @@ export const properties: Property[] = [
     facts: ["Sleeps 2", "Queen-size bed", "Shower & bath", "Electric Blanket", "Linen and towels provided", "Fully equipped kitchen with stove, fridge etc", "Fireplace", "Braai", "Free Wi-Fi", "Solar power back-up", "Borehole", "Splash pool", "Close to all restaurants and shops", "COST"],
     price: ["R1300pernight"],
     rating: 4.7,
-    reviews: 53
+    reviews: 30
   },
   {
     slug: "die-rooi-haan-stay",
@@ -520,8 +520,8 @@ export const properties: Property[] = [
     story: "Situated on the peaceful northern edge of town, the house offers beautiful views of the Witteberg Mountains and surrounding farmlands. With solar power, back-up water tank and WIFI, you will be sorted. This two-bedroom, four-sleeper house is a cosy retreat and has all the amenities you will need. The spacious covered veranda with built-in braai is perfect for relaxing, kuier and enjoying the views. Inside there is a woodburning fireplace, well-equipped kitchen with gas stove and small library. Surrounded by nature, you may spot scrub hares in the garden at dusk, the resident pair of barn owls at night and mongoose in the morning. You can stroll to the dam or go hiking from your doorstep Second bedroom with two single beds, electric blankets in winter Large bathroom with grand Victorian bath, double basins and loo",
     facts: ["Spacious covered front veranda with built-in braai", "Open-plan lounge / dining room with fireplace", "Main bedroom with queen bed", "Second bedroom with two single beds, electric blankets in winter", "Large bathroom with grand Victorian bath, double basins and loo", "Separate guest toilet", "Linen and towels provided", "WIFI", "Backup water tank", "Backup solar power", "Dogs welcome by arrangement", "COST", "R1600 per night for the house", "Negotiable rates for longer stays"],
     price: ["R1600pernight"],
-    rating: 4.6,
-    reviews: 64
+    rating: 4.7,
+    reviews: 30
   },
   {
     slug: "die-boekhuis",
@@ -533,8 +533,34 @@ export const properties: Property[] = [
     story: "From humble beginnings as the Rosendal bottle store, to a haven for 2 elderly artists from Bloemfontein for more than a decade, Die Boekhuis (like many timeless legends) is now facing its 3rd reincarnation… This time round as an enchanting 3-bedroom weekend home, with a private library, in the centre of town. Downstairs there are two bedrooms (1 double bed and 2 single beds), with a shared bathroom. The spacious living room has been exclusively decorated with antique wooden furniture, most pieces dating back to the 1920’s/30’s… Each piece has been in the family for nearly a century, accompanied by interesting background stories and anecdotes. The heart of the kitchen/dining area beats warmly in the shape of a 6-seater table, where many early morning coffees and late evening dinners will be remembered long after the Rosendal dust has been washed out of your clothes. The dining area boasts",
     facts: ["Large living area", "Dining area and kitchen", "Fireplace", "Quality linen and towels provided", "Electric blankets for cold winter nights", "Two bathrooms", "Three bedrooms (2 rooms with a double bed in each and one bedroom with two single beds)", "Beautiful reading room with books"],
     price: ["R1200forthehouse", "R1500forthehouse"],
-    rating: 4.9,
-    reviews: 55
+    rating: 4.7,
+    reviews: 30
+  },
+  {
+    slug: "rose-cottage",
+    name: "Rose Cottage",
+    tagline: "More than 1 month before check-in: 50% deposit refunded More than 2 weeks before check-in:",
+    location: "Rosendal, Free State",
+    hero: "https://rosendaltown.co.za/wp-content/uploads/2024/05/CCnew4.png",
+    gallery: ["https://rosendaltown.co.za/wp-content/uploads/2024/05/CCnew4.png", "https://rosendaltown.co.za/wp-content/uploads/2024/04/CC3.webp", "https://rosendaltown.co.za/wp-content/uploads/2024/04/CC4.webp", "https://rosendaltown.co.za/wp-content/uploads/2024/05/CCnew1.png", "https://rosendaltown.co.za/wp-content/uploads/2024/05/CCnew2.png", "https://rosendaltown.co.za/wp-content/uploads/2024/04/CC_bathroomb.jpg", "https://rosendaltown.co.za/wp-content/uploads/2024/04/CC6-1.webp", "https://rosendaltown.co.za/wp-content/uploads/2024/04/CC9.webp", "https://rosendaltown.co.za/wp-content/uploads/2024/04/cc_chairsb.jpg", "https://rosendaltown.co.za/wp-content/uploads/2024/04/CC_kitchenb.jpg", "https://rosendaltown.co.za/wp-content/uploads/2024/04/CC10.webp", "https://rosendaltown.co.za/wp-content/uploads/2024/05/CCnew3.png"],
+    story: "More than 1 month before check-in: 50% deposit refunded More than 2 weeks before check-in: 25% deposit refunded Less than 2 weeks before check-in: 0% deposit refunded",
+    facts: ["Sleeps 2 people", "Self-catering", "Open plan living area", "Bedroom with queen size bed", "Bathroom with shower", "Kitchenette", "Under roof braai area", "Freestanding outdoor braai", "Large garden", "Secure parking", "Parking behind closed gate", "Electric blanket", "Backup water", "COST"],
+    price: ["R800pernight"],
+    rating: 4.7,
+    reviews: 33
+  },
+  {
+    slug: "beesbos",
+    name: "Beesbos",
+    tagline: "Beesbos offers a warm, spacious welcome in the heart of Rosendal.",
+    location: "Rosendal, Free State",
+    hero: "https://rosendaltown.co.za/wp-content/uploads/2024/04/BB1-1.webp",
+    gallery: ["https://rosendaltown.co.za/wp-content/uploads/2024/04/BB1-1.webp", "https://rosendaltown.co.za/wp-content/uploads/2024/04/BB2.webp", "https://rosendaltown.co.za/wp-content/uploads/2024/04/BB3.webp", "https://rosendaltown.co.za/wp-content/uploads/2024/04/BB4.webp", "https://rosendaltown.co.za/wp-content/uploads/2024/04/BB5.webp", "https://rosendaltown.co.za/wp-content/uploads/2024/04/BB6.webp", "https://rosendaltown.co.za/wp-content/uploads/2024/04/BB7.webp", "https://rosendaltown.co.za/wp-content/uploads/2024/04/BB8.webp", "https://rosendaltown.co.za/wp-content/uploads/2024/04/BB9.webp", "https://rosendaltown.co.za/wp-content/uploads/2024/04/BB10.webp", "https://rosendaltown.co.za/wp-content/uploads/2024/04/BB11.webp", "https://rosendaltown.co.za/wp-content/uploads/2024/04/BB12.webp", "https://rosendaltown.co.za/wp-content/uploads/2024/04/BB13.webp", "https://rosendaltown.co.za/wp-content/uploads/2024/04/BB14.webp"],
+    story: "Beesbos offers a warm, spacious welcome in the heart of Rosendal. Everything that opens and closes, large cosy kitchen/dining area as well as lounge with gas fireplace. Master bedroom with en-suite bath and shower, second suite with private shower, third unit outside with en-suite shower. Mezzanine with two single beds and TV. Comfortable self-catering hangout for family and friends. Talk to us about bringing pets. More than 1 month before check-in: 50% deposit refunded More than 2 weeks before check-in: 25% deposit refunded Less than 2 weeks before check-in: 0% deposit refunded",
+    facts: ["* Large open plan living area", "* Dining table", "* Fully equipped kitchen", "* Coffee station", "* 3 bedrooms from double to king size", "* 3 bathrooms", "* Solar power backup", "* Off street parking", "* Fireplace", "* Stoep with braai area", "* Backup water tank", "* Dog friendly", "* Safe parking", "COST"],
+    price: ["R1400", "R1600"],
+    rating: 4.8,
+    reviews: 74
   },
 ];
 

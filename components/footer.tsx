@@ -24,7 +24,7 @@ export function Footer() {
           <p className="eyebrow !text-brass-soft">Information</p>
           <ul className="mt-4 space-y-2 text-sm">
             {footer.information.map((l) => (
-              <li key={l}><Link href={l === 'Contact Us' ? '/contact' : '/plan-your-visit'} className="text-cream/80 transition-colors hover:text-brass">{l}</Link></li>
+              <li key={l.label}><Link href={l.href} className="text-cream/80 transition-colors hover:text-brass">{l.label}</Link></li>
             ))}
           </ul>
         </div>
