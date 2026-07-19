@@ -25,7 +25,7 @@ export default function ContactPage() {
 
   return (
     <>
-      <PageHero eyebrow="Contact" title="Reach the Rosendal team." intro="Questions, listings or just a hello — we'd love to hear from you." image="/captains-cabin.jpg" />
+      <PageHero eyebrow="Contact" title="Reach the Rosendal team." intro="Questions, listings or just a hello — we'd love to hear from you." image="/church.jpg" />
       <section className="bg-forest-deep py-20">
         <div className="container-editorial grid gap-10 md:grid-cols-[1fr_2fr]">
           <Reveal>

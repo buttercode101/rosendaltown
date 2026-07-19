@@ -31,13 +31,21 @@ export const categories = [
   { label: 'Shops & Services', tag: 'Everything you need', href: '/shops-services', img: '/shops.jpg' }
 ];
 
+// Distinct braai / fire / evening images for the homepage Upcoming Events row.
+export const eventImages = {
+  braai: '/event-braai.jpg',   // street braai at sunset
+  fire: '/event-fire.jpg',     // open fire
+  sunset: '/event-sunset.jpg', // sunset over the mountains
+  braai2: '/event-braai2.jpg', // outdoor braai setup
+};
+
 export const stats = [
   { n: '1857', l: 'Rich heritage' },
   { n: '+50', l: 'Local businesses' },
   { n: '1000+', l: 'Happy visitors' }
 ];
 
-export const events = [{"day": "20", "mon": "JUL", "title": "Let’s Draw Rosendal 2026", "when": "Every Tuesday 2026", "img": "/events.jpg"}, {"day": "16", "mon": "JUL", "title": "iRun Cross Country", "when": "16-19 July 2026", "img": "/events.jpg"}, {"day": "18", "mon": "JUL", "title": "Car Boot Sale", "when": "18 July 2026", "img": "/events.jpg"}, {"day": "18", "mon": "JUL", "title": "Celebrate Mandela Day with Let’s Draw", "when": "18 July 2026", "img": "/events.jpg"}];
+export const events = [{"day": "20", "mon": "JUL", "title": "Let’s Draw Rosendal 2026", "when": "Every Tuesday 2026", "img": eventImages.braai}, {"day": "16", "mon": "JUL", "title": "iRun Cross Country", "when": "16-19 July 2026", "img": eventImages.fire}, {"day": "18", "mon": "JUL", "title": "Car Boot Sale", "when": "18 July 2026", "img": eventImages.sunset}, {"day": "18", "mon": "JUL", "title": "Celebrate Mandela Day with Let’s Draw", "when": "18 July 2026", "img": eventImages.braai2}];
 
 export const stays = [{"name": "Modderfort", "price": "R975pernight", "img": "https://rosendaltown.co.za/wp-content/uploads/2026/07/MOD_6.-Garden.jpg"}, {"name": "Mont Blanc Cabin", "price": "R1250pernight", "img": "https://rosendaltown.co.za/wp-content/uploads/2026/07/MontBlanc-New.jpeg"}, {"name": "Field Cabin", "price": "R15001", "img": "https://rosendaltown.co.za/wp-content/uploads/2026/02/FC-Landing-page.jpeg"}, {"name": "Potluck Accomodation", "price": "R1250pernight", "img": "https://rosendaltown.co.za/wp-content/uploads/2025/10/POT_d1c844b9-cb3a-4155-9081-798ecfe49e46.jpg"}];
 
