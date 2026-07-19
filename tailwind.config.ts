@@ -16,8 +16,8 @@ const config: Config = {
         stone: '#A9A390',       // muted light text
       },
       fontFamily: {
-        serif: ['var(--font-cormorant)', 'Cormorant Garamond', 'Georgia', 'serif'],
-        sans: ['var(--font-work)', 'Work Sans', 'system-ui', 'sans-serif']
+        serif: ['var(--font-display)', 'Cormorant Garamond', 'Georgia', 'serif'],
+        sans: ['var(--font-sans)', 'Work Sans', 'system-ui', 'sans-serif']
       },
       maxWidth: {
         editorial: '72rem'
