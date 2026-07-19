@@ -3,13 +3,21 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
-import { ArrowRight, Search, Heart, Mountain, Compass, Map } from 'lucide-react';
+import { ArrowRight, Search, Heart, Mountain, Compass, Map, Bed, Utensils, Palette, ShoppingBag } from 'lucide-react';
 import { LineText, MaskReveal } from '@/components/motion/text';
 import { Reveal, Stagger, StaggerItem } from '@/components/motion/reveal';
 import { Parallax } from '@/components/motion/parallax';
 import { Magnetic } from '@/components/motion/magnetic';
 import { EASE, DURATION } from '@/lib/motion';
 import { categories, steps, stats, events, site } from '@/lib/data';
+
+const categoryIcons: Record<string, React.ComponentType<{ className?: string }>> = {
+  bed: Bed,
+  utensils: Utensils,
+  compass: Compass,
+  palette: Palette,
+  'shopping-bag': ShoppingBag,
+};
 
 export default function Home() {
   return (
@@ -88,17 +96,25 @@ export default function Home() {
       {/* CATEGORY GRID */}
       <section className="bg-forest-deep pb-20 md:pb-28">
         <div className="container-editorial grid grid-cols-2 gap-3 md:grid-cols-5 md:gap-4">
-          {categories.map((c) => (
+          {categories.map((c) => {
+            const Icon = categoryIcons[c.icon];
+            return (
             <Link key={c.href} href={c.href} className="group relative aspect-[4/5] overflow-hidden rounded-xl" data-cursor="grow">
               <Image src={c.img} alt={c.label} fill loading="lazy" className="object-cover transition-transform duration-700 group-hover:scale-105" />
               <div className="absolute inset-0 bg-gradient-to-t from-forest-deep/90 via-forest-deep/25 to-transparent" />
+              {Icon && (
+                <span className="absolute left-3 top-3 inline-flex h-10 w-10 items-center justify-center rounded-lg border border-cream/20 bg-forest-deep/45 backdrop-blur-sm transition-colors group-hover:bg-brass group-hover:text-forest-deep">
+                  <Icon className="h-5 w-5 text-cream transition-colors group-hover:text-forest-deep" />
+                </span>
+              )}
               <div className="absolute inset-x-0 bottom-0 p-4 text-cream md:p-6">
                 <div className="font-serif text-xl md:text-2xl">{c.label}</div>
                 <div className="mt-1 text-xs text-cream/80 md:text-sm">{c.tag}</div>
                 <div className="mt-3 inline-flex items-center gap-1.5 text-xs opacity-0 transition-opacity group-hover:opacity-100">Discover <ArrowRight className="h-3.5 w-3.5" /></div>
               </div>
             </Link>
-          ))}
+            );
+          })}
         </div>
       </section>
 
@@ -108,7 +124,7 @@ export default function Home() {
           <div>
             <Reveal delay={0.1}>
               <h2 className="mt-4 font-serif text-4xl italic leading-[1.05] md:text-6xl">Not just a place to visit,<br />a place to feel.</h2>
-              <p className="mt-6 max-w-md text-cream/80">Founded in 1857, Rosendal is a small town with a big heart — a place of beauty, culture and community beneath the Free State&apos;s endless sky.</p>
+              <p className="mt-6 max-w-md text-cream/80">Founded in 1908, Rosendal is a small town with a big heart — a place of beauty, culture and community beneath the Free State&apos;s endless sky.</p>
             </Reveal>
             <Reveal delay={0.2}>
               <div className="mt-10 grid max-w-md grid-cols-3 gap-6">
@@ -127,10 +143,10 @@ export default function Home() {
             </Reveal>
           </div>
           <div className="grid grid-cols-2 gap-3">
-            <Parallax speed={0.06}><Image src="/story.jpg" alt="Free State landscape" width={400} height={560} className="h-full w-full rounded-lg object-cover" /></Parallax>
+            <Parallax speed={0.06}><Image src="https://rosendaltown.co.za/wp-content/uploads/2026/05/Home_horses-1024x514.jpg" alt="Rosendal horses beneath the mountains" width={400} height={560} className="h-full w-full rounded-lg object-cover" /></Parallax>
             <div className="grid gap-3">
-              <Image src="/church.jpg" alt="Rosendal church" width={400} height={270} className="w-full rounded-lg object-cover" />
-              <Image src="/stay-cottage.jpg" alt="Rosendal cottage" width={400} height={270} className="w-full rounded-lg object-cover" />
+              <Image src="https://rosendaltown.co.za/wp-content/uploads/2024/04/Church.jpg" alt="Rosendal church" width={400} height={270} className="w-full rounded-lg object-cover" />
+              <Image src="https://rosendaltown.co.za/wp-content/uploads/2024/09/FC_main2.jpg" alt="Rosendal cottage" width={400} height={270} className="w-full rounded-lg object-cover" />
             </div>
           </div>
         </div>
