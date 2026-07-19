@@ -15,7 +15,16 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${serif.variable} ${sans.variable}`}>
+    <html lang="en" className={`${serif.variable} ${sans.variable}`} suppressHydrationWarning>
+      <head>
+        {/* Mark JS as available BEFORE paint so content-gated reveals stay
+            visible for no-JS / headless crawlers (SEO) and only animate when JS is live. */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `document.documentElement.classList.add('js-enabled');`
+          }}
+        />
+      </head>
       <body className="grain">
         <CustomCursor />
         <Navbar />

@@ -106,7 +106,6 @@ export default function Home() {
       <section className="relative overflow-hidden bg-forest-deep py-20 text-cream md:py-28">
         <div className="container-editorial grid items-center gap-12 md:grid-cols-2">
           <div>
-            <Reveal><p className="eyebrow text-brass-soft">Our story</p></Reveal>
             <Reveal delay={0.1}>
               <h2 className="mt-4 font-serif text-4xl italic leading-[1.05] md:text-6xl">Not just a place to visit,<br />a place to feel.</h2>
               <p className="mt-6 max-w-md text-cream/80">Founded in 1857, Rosendal is a small town with a big heart — a place of beauty, culture and community beneath the Free State&apos;s endless sky.</p>
@@ -142,7 +141,6 @@ export default function Home() {
         <div className="container-editorial">
           <div className="flex flex-wrap items-end justify-between gap-6">
             <Reveal>
-              <p className="eyebrow">Upcoming events</p>
               <h2 className="mt-4 font-serif text-4xl md:text-5xl">There&apos;s always something happening.</h2>
             </Reveal>
             <Link href="/events" className="inline-flex items-center gap-1.5 border-b border-forest pb-0.5 text-sm">View all events <ArrowRight className="h-4 w-4" /></Link>
@@ -171,7 +169,6 @@ export default function Home() {
       <section className="bg-forest py-20 text-cream">
         <div className="container-editorial grid items-center gap-12 md:grid-cols-2">
           <div>
-            <Reveal><p className="eyebrow text-brass-soft">Stay in the know</p></Reveal>
             <Reveal delay={0.1}><h2 className="mt-4 font-serif text-4xl md:text-5xl">Get the Rosendal Guide.</h2></Reveal>
             <Reveal delay={0.2}><p className="mt-4 max-w-md text-cream/80">Your free guide to the best stays, eats, events and hidden gems — straight to your inbox.</p></Reveal>
           </div>
